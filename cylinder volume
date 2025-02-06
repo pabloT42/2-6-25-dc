@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+float CylinderVolume(int h, int r);
+
+int main() {
+
+	int answer;
+	answer = CylinderVolume(4, 6);
+	cout << answer;
+}
+
+float CylinderVolume(int h, int r) {
+
+	return 3.14*r*r*h;
+}
